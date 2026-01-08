@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot Password</title>
+</head>
+<body>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <center><b style="color:red">{{ message }}</b></center>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <center>
+        <form method="POST">
+            <h1>Enter email id</h1>
+            <input type="email" name="email" required/><br>
+            <button>Submit</button>
+        </form>
+    </center>
+</body>
+</html>

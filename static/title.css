@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    height: 100vh;
+}
+
+.student h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.btnstyle {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btnstyle:hover {
+    background-color: #45a049;
+}

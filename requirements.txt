@@ -1,0 +1,6 @@
+Flask
+Flask-Session
+mysql-connector-python
+itsdangerous
+Werkzeug
+gunicorn
